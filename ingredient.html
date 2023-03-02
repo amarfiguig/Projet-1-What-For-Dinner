@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/ingredient.css" />
+  
+  <title>ingredient page</title>
+  <p> Welcome! We're here to satisfy your food cravings and save your time by finding your dinner for you!
+    To get started, first type a meat of your choice, then a vegetable, and lastly a fruit.
+    To generate meals containing these ingredients click on the 'Find My Dinner' button.
+   We've also got you covered if you're thirsty. If you want a cocktail then click on the
+    'Fancy a Cocktail?' button, or if you want a beer then click on the 'Fancy a Beer' button.
+   So what do you fancy? </p>
+</head>
+
+<body>
+
+  <!-- Write your code here -->
+
+  <section>
+    <div>
+    <h4>ingredient page</h4>
+    </div>
+  </section>
+
+  <hr>
+
+  <section>
+    <h3>Choose your main ingredients:</h3>
+    <form id="user-form">
+        <div>
+            <label for="meat">Meats?</label>
+            <input id="meat" type="text" />
+        </div>
+        <div>
+            <label for="veg">Vegetables?</label>
+            <input id="veg" type="text" />
+        </div>
+        <div>
+            <label for="fruit">Fruits?</label>
+            <input id="fruit" type="text" />
+        </div>
+        <button type="submit" class="btn-food">Find my dinner</button>
+    </form>
+  </section>
+
+  <hr>
+
+  <section>
+        <div id="foodcards">
+              <section>
+                  <div>
+                      <figure id = "picture_0">
+                      </figure>
+                  </div>
+              </section>
+      
+              <section>
+                  <div>
+                      <figure id = "picture_1">
+                      </figure>
+                  </div>
+              </section>
+      
+              <section>
+                  <div>
+                      <figure id = "picture_2">
+                      </figure>
+                  </div>
+              </section>
+      
+              <section>
+                  <div>
+                      <figure id = "picture_3">
+                      </figure>
+                  </div>
+              </section>
+      
+              <section>
+                  <div>
+                      <figure id = "picture_4">
+                      </figure>
+                  </div>
+              </section>
+      
+              <section>
+                  <div>
+                      <figure id = "picture_5">
+                      </figure>
+                  </div>
+              </section>
+          </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/js/ingredient.js"></script>
+</body>
+
+</html>
